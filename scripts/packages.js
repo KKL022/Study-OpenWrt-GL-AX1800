@@ -61,10 +61,10 @@ module.exports = [
     name: 'luci-app-ttyd',
     desc: 'ttyd 终端',
   },
-  // {
-  //   name: 'luci-app-samba4',
-  //   desc: 'samba4文件共享',
-  // },
+  {
+    name: 'luci-app-samba4',
+    desc: 'samba4文件共享',
+  },
   // {
   //   name: 'luci-app-xlnetacc',
   //   desc: '迅雷快鸟',
