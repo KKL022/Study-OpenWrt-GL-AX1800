@@ -24,7 +24,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 0864a03f89e48810bb8de72812015abf83ded3f4
+    revision: c9dfdcccc3880bb3a211a97c27dd1239e47e569c
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
@@ -35,16 +35,15 @@ packages:
   - wget-ssl
   - luci-theme-argon
   - luci-app-argon-config
+  - luci-app-passwall2
+  - luci-app-ssr-plus
   - luci-app-ramfree
-  - luci-app-wol
   - luci-app-diskman
   - luci-app-smartdns
-  - luci-app-openclash
   - luci-app-aria2
+  - luci-app-ddns
   - luci-app-zerotier
   - luci-app-turboacc
-  - luci-app-xlnetacc
   - luci-app-appfilter
   - luci-app-cpufreq
-diffconfig: |
-  CONFIG_KERNEL_IPQ_MEM_PROFILE=0
+  - luci-app-ttyd
