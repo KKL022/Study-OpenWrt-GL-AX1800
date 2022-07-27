@@ -4,7 +4,7 @@ target: ipq807x
 subtarget: ipq60xx
 description: Build image for the GL.iNET AX1800
 image: bin/targets/ipq807x/ipq60xx/openwrt-ipq807x-glinet_ax1800-squashfs-sysupgrade.tar
-echo 4.0.1 >/etc/glversion
+version: echo 4.0.1 >/etc/glversion
 feeds:
   - name: ipq807x
     path: ../../feeds/ipq807x
