@@ -4,7 +4,6 @@ target: ipq807x
 subtarget: ipq60xx
 description: Build image for the GL.iNET AX1800
 image: bin/targets/ipq807x/ipq60xx/openwrt-ipq807x-glinet_ax1800-squashfs-sysupgrade.tar
-version: echo 4.0.1 >/etc/glversion
 feeds:
   - name: ipq807x
     path: ../../feeds/ipq807x
@@ -27,7 +26,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 60c1056982eed3dfbf964960f79bdd54a79f1930
+    revision: 635062fcabad92a5dd74998108d54a0cadfdcbc5
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
