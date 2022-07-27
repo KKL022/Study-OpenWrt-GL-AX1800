@@ -24,27 +24,23 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 46856befbe88ab4b72829cb45531cee730cf7d84
+    revision: 60c1056982eed3dfbf964960f79bdd54a79f1930
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
-    revision: ba0e907af63c5f7dff8a0a513076915a15b75b5f
+    revision: 5afbe3bba9a2953f506074cc0d943580a38f589e
 include:
   - wifi-ax
 packages:
   - wget-ssl
   - luci-theme-argon
-  - luci-app-argon-config
   - luci-app-passwall2
   - luci-app-ssr-plus
   - luci-app-ramfree
   - luci-app-diskman
-  - luci-app-smartdns
   - luci-app-aria2
   - luci-app-ddns
   - luci-app-zerotier
   - luci-app-turboacc
-  - luci-app-appfilter
   - luci-app-cpufreq
-  - luci-app-ttyd
   - luci-app-samba4
