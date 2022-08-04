@@ -7,9 +7,14 @@
 
 module.exports = [
   {
-    name: 'open_app_filter',
-    uri: 'https://github.com/destan19/OpenAppFilter.git',
-    branch: 'oaf-5.1.0',
+    name: 'kenzok8_packages',
+    uri: 'https://github.com/kenzok8/openwrt-packages.git',
+    branch: 'master',
+  },
+  {
+    name: 'kenzok8_small',
+    uri: 'https://github.com/kenzok8/small.git',
+    branch: 'master',
   },
   {
     name: 'immortalwrt_luci',
@@ -21,14 +26,9 @@ module.exports = [
   //   uri: 'https://github.com/Lienol/openwrt-package.git',
   //   branch: 'main',
   // },
-  {
-    name: 'kenzok8_packages',
-    uri: 'https://github.com/kenzok8/openwrt-packages.git',
-    branch: 'master',
-  },
-  {
-    name: 'kenzok8_small',
-    uri: 'https://github.com/kenzok8/small.git',
-    branch: 'master',
-  },
+  // {
+  //   name: 'open_app_filter',
+  //   uri: 'https://github.com/destan19/OpenAppFilter.git',
+  //   branch: 'oaf-5.1.0',
+  // },
 ];
