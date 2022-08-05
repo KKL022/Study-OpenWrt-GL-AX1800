@@ -85,7 +85,7 @@ jobs:
         ./scripts/feeds update -a
         ./scripts/feeds install -a
         make defconfig
-		echo 4.0.1 >/etc/glversion
+	echo 4.0.1 >/etc/glversion
 
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
