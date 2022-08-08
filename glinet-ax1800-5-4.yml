@@ -40,5 +40,4 @@ packages:
   - luci-app-turboacc
   - luci-app-cpufreq
   - luci-app-samba4
-  - luci-app-unblockneteasemusic
   - luci-app-ttyd
