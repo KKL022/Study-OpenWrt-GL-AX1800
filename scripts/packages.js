@@ -50,13 +50,13 @@ module.exports = [
     desc: 'samba4文件共享',
   },
   {
-    name: 'luci-app-unblockneteasemusic',
-    desc: '解锁网易云音乐',
-  },
-  {
    name: 'luci-app-ttyd',
    desc: 'ttyd 终端',
   },
+  // {
+  //   name: 'luci-app-unblockneteasemusic',
+  //   desc: '解锁网易云音乐',
+  // },
   // {
   //   name: 'luci-app-appfilter',
   //   desc: '应用过滤'
