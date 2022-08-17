@@ -31,7 +31,7 @@ module.exports = [
   },
   {
     name: 'luci-app-aria2',
-    desc: 'aria2下载工具',
+    desc: 'Aria2下载工具',
   },
   {
     name: 'luci-app-ddns',
@@ -62,17 +62,17 @@ module.exports = [
    desc: 'TTYD 终端',
   },
   {
-    name: 'luci-app-unblockmusic',
-    desc: '解网易云歌曲3合1',
-  },
-  {
     name: 'luci-app-unblockneteasemusic-go',
     desc: '解网易云歌曲-GO',
   },
-  {
-    name: 'luci-app-unblockneteasemusic',
-    desc: '解网易云歌曲-MINI',
-  },
+  // {
+  //   name: 'luci-app-unblockmusic',
+  //   desc: '解网易云歌曲3合1',
+  // },
+  // {
+  //   name: 'luci-app-unblockneteasemusic',
+  //   desc: '解网易云歌曲-MINI',
+  // },
   // {
   //   name: 'luci-app-appfilter',
   //   desc: '应用过滤'
