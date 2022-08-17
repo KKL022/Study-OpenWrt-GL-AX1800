@@ -7,15 +7,19 @@
 module.exports = [
   {
     name: 'luci-theme-argon',
-    desc: 'argon主题',
+    desc: 'Argon主题',
   },
   {
     name: 'luci-app-passwall2',
-    desc: 'passwall2代理软件',
+    desc: 'Passwall2代理软件',
   },
   {
     name: 'luci-app-ssr-plus',
-    desc: 'ssr-plus 代理软件',
+    desc: 'SSR-Plus 代理软件',
+  },
+  {
+    name: 'luci-app-openclash',
+    desc: 'Clash的图形代理软件',
   },
   {
     name: 'luci-app-ramfree',
@@ -38,6 +42,10 @@ module.exports = [
     desc: 'ZeroTier内网穿透',
   },
   {
+   name: 'luci-app-smartdns',
+   desc: 'Smartdns DNS防污染',
+  },
+  {
     name: 'luci-app-turboacc',
     desc: 'Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)',
   },
@@ -47,23 +55,27 @@ module.exports = [
   },
   {
     name: 'luci-app-samba4',
-    desc: 'samba4文件共享',
+    desc: 'Samba4文件共享',
   },
   {
    name: 'luci-app-ttyd',
-   desc: 'ttyd 终端',
+   desc: 'TTYD 终端',
   },
-  // {
-  //   name: 'luci-app-unblockneteasemusic',
-  //   desc: '解锁网易云音乐',
-  // },
+  {
+    name: 'luci-app-unblockmusic',
+    desc: '解网易云歌曲3合1',
+  },
+  {
+    name: 'luci-app-unblockneteasemusic-go',
+    desc: '解网易云歌曲-GO',
+  },
+  {
+    name: 'luci-app-unblockneteasemusic',
+    desc: '解网易云歌曲-MINI',
+  },
   // {
   //   name: 'luci-app-appfilter',
   //   desc: '应用过滤'
-  // },
-  // {
-  //   name: 'luci-app-smartdns',
-  //   desc: 'smartdns DNS防污染',
   // },
   // {
   //  name: 'luci-app-argon-config',
@@ -88,10 +100,6 @@ module.exports = [
   // {
   //   name: 'luci-app-aliddns',
   //   desc: '阿里云ddns插件',
-  // },
-  // {
-  //   name: 'luci-app-openclash',
-  //   desc: 'clash的图形代理软件',
   // },
   // {
   //   name: 'luci-app-wol',
