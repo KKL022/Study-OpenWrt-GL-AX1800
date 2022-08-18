@@ -18,7 +18,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 735f88f3c561d4706968b33c4e80ee90deb4f68c
+    revision: 44322aa5043be72de0470e8ff10ef2166ac3f37f
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
@@ -30,7 +30,7 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: e28ddc3f0db8eb401905d75c30ea813b862bef29
+    revision: b87208e1e4ccca723ea343da681c321f2e240dcc
 include: []
 packages:
   - kmod-hwmon-pwmfan
@@ -51,6 +51,4 @@ packages:
   - luci-app-cpufreq
   - luci-app-samba4
   - luci-app-ttyd
-  - luci-app-unblockmusic
   - luci-app-unblockneteasemusic-go
-  - luci-app-unblockneteasemusic
