@@ -5,10 +5,10 @@
  * @desc app 描述
  */
 module.exports = [
-  {
-    name: 'luci-theme-argon',
-    desc: 'Argon主题',
-  },
+  // {
+  //  name: 'luci-theme-argon',
+  //  desc: 'Argon主题',
+  // },
   // {
   //  name: 'luci-app-passwall2',
   //  desc: 'Passwall2代理软件',
@@ -25,10 +25,10 @@ module.exports = [
     name: 'luci-app-ramfree',
     desc: '释放内存',
   },
-  {
-    name: 'luci-app-diskman',
-    desc: '磁盘管理工具',
-  },
+  // {
+  //  name: 'luci-app-diskman',
+  //  desc: '磁盘管理工具',
+  // },
   // {
   //  name: 'luci-app-aria2',
   //  desc: 'Aria2下载工具',
@@ -53,10 +53,10 @@ module.exports = [
   //  name: 'luci-app-cpufreq',
   //  desc: 'CPU 性能优化调节',
   // },
-  {
-    name: 'luci-app-samba4',
-    desc: 'Samba4文件共享',
-  },
+  // {
+  //  name: 'luci-app-samba4',
+  //  desc: 'Samba4文件共享',
+  // },
   {
    name: 'luci-app-ttyd',
    desc: 'TTYD 终端',
