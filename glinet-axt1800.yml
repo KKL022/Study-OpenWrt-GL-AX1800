@@ -18,7 +18,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 378e0d05a8a1513f1a2b1bd48c20c86ecb0433a1
+    revision: 549a50e76d2ab30248867f513ec4f546d5c568ca
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
@@ -30,7 +30,7 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: 14f3cb650ef26d56fbf81d9e76d2d3ecce22beb2
+    revision: d9812a0715f9da4d3100a3ee45f7009943586243
 include: []
 packages:
   - kmod-hwmon-pwmfan
