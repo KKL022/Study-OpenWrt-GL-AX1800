@@ -16,7 +16,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 634c59a3a9d2682b8f2de28acdf346c9572e701b
+    revision: f13ec39fd543c7e94591d348b77e66688cc97fdb
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
@@ -28,14 +28,16 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: f1ec45f58db4d6f047bcf6be349a8572eba24dc3
+    revision: 14162d1709bb7190459c3421bac807f77367ac43
 include:
   - wifi-ax
 packages:
   - wget-ssl
+  - luci-theme-argon
   - luci-app-openclash
   - luci-app-ramfree
   - luci-app-ddns
   - luci-app-zerotier
-  - luci-app-turboacc
+  - luci-app-samba4
   - luci-app-ttyd
+  - luci-app-argon-config
