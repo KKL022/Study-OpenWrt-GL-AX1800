@@ -5,10 +5,10 @@
  * @desc app 描述
  */
 module.exports = [
-  // {
-  //  name: 'luci-theme-argon',
-  //  desc: 'Argon主题',
-  // },
+  {
+    name: 'luci-theme-argon',
+    desc: 'Argon主题',
+  },
   // {
   //  name: 'luci-app-passwall2',
   //  desc: 'Passwall2代理软件',
@@ -45,18 +45,18 @@ module.exports = [
   // name: 'luci-app-smartdns',
   // desc: 'Smartdns DNS防污染',
   // },
-  {
-    name: 'luci-app-turboacc',
-    desc: 'Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)',
-  },
+  // {
+  //   name: 'luci-app-turboacc',
+  //   desc: 'Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)',
+  // },
   // {
   //  name: 'luci-app-cpufreq',
   //  desc: 'CPU 性能优化调节',
   // },
-  // {
-  //  name: 'luci-app-samba4',
-  //  desc: 'Samba4文件共享',
-  // },
+   {
+     name: 'luci-app-samba4',
+     desc: 'Samba4文件共享',
+   },
   {
    name: 'luci-app-ttyd',
    desc: 'TTYD 终端',
@@ -77,10 +77,10 @@ module.exports = [
   //   name: 'luci-app-appfilter',
   //   desc: '应用过滤'
   // },
-  // {
-  //  name: 'luci-app-argon-config',
-  //  desc: 'argon主题设置',
-  // },
+   {
+     name: 'luci-app-argon-config',
+     desc: 'argon主题设置',
+   },
   // {
   //   name: 'luci-app-xlnetacc',
   //   desc: '迅雷快鸟',
