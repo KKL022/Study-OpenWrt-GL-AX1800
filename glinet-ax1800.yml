@@ -11,14 +11,14 @@ feeds:
     path: ../../feeds/wifi-ax
   - name: gl_feeds_common
     uri: https://github.com/gl-inet/gl-feeds.git
-    branch: common
+    revision: 6d6029902c2f1d3ba56e213feeb39028675dd0e5
   - name: luci
     uri: https://github.com/openwrt/luci.git
     revision: 1c3b32dc1bec15e3076a447762b1c4f94eb75fb7
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: ddce1eb1c1e0b73446eb169a358b12f768b318ed
+    revision: f16eab42b5f215447ad2a8a5d56df945fb8fccdd
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
@@ -30,7 +30,7 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: c0df4e27bc17f3e750fe8063d4d2847987412184
+    revision: 9b8625a418e6e0738310c31fa68db1a5bb9f5bda
 include: []
 packages:
   - wireless-regdb

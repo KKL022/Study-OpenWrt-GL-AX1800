@@ -16,7 +16,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: ddce1eb1c1e0b73446eb169a358b12f768b318ed
+    revision: f16eab42b5f215447ad2a8a5d56df945fb8fccdd
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
@@ -28,7 +28,7 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: c0df4e27bc17f3e750fe8063d4d2847987412184
+    revision: 9b8625a418e6e0738310c31fa68db1a5bb9f5bda
 include:
   - wifi-ax
 packages:
