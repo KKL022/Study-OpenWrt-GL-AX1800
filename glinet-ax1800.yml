@@ -30,7 +30,7 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: d9f9c0836ef51cbd50a5131bcc2e63a43184b79e
+    revision: b6daa11fd76f273448018d58dfff0e7eff7ce55b
 include: []
 packages:
   - wireless-regdb
@@ -38,6 +38,7 @@ packages:
   - kmod-wireguard-backport
   - luci-theme-argon
   - luci-app-argon-config
+  - luci-app-passwall
   - luci-app-openclash
   - luci-app-ramfree
   - luci-app-ddns
