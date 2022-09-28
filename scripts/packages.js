@@ -13,10 +13,10 @@ module.exports = [
     name: 'luci-app-argon-config',
     desc: 'argon主题设置',
   },
-  {
-    name: 'luci-app-passwall2',
-    desc: 'Passwall2代理软件',
-  },
+  // {
+  //  name: 'luci-app-passwall2',
+  //  desc: 'Passwall2代理软件',
+  // },
   // {
   //  name: 'luci-app-ssr-plus',
   //  desc: 'SSR-Plus 代理软件',
