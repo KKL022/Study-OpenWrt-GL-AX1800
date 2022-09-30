@@ -26,6 +26,11 @@ module.exports = [
     uri: 'https://github.com/NueXini/NueXini_Packages.git',
     branch: 'main',
   },
+  {
+    name: 'kiddin9_Packages',
+    uri: 'https://github.com/kiddin9/luci-app-baidupcs-web.git',
+    branch: 'main',
+  },  
   // {
   //   name: 'lienol_packages',
   //   uri: 'https://github.com/Lienol/openwrt-package.git',

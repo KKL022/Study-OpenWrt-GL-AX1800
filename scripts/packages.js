@@ -65,6 +65,10 @@ module.exports = [
     name: 'luci-app-ttyd',
     desc: 'TTYD 终端',
   },
+  {
+    name: 'luci-app-baidupcs-web',
+    desc: '百度网盘',
+  },  
   // {
   //  name: 'luci-app-unblockneteasemusic-go',
   //  desc: '解网易云歌曲-GO',
