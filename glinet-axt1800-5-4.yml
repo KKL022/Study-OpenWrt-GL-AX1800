@@ -29,6 +29,10 @@ feeds:
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
     revision: 933814b6193d246a8ce7fc6ab08963ace6969346
+  - name: kiddin9_Packages
+    uri: https://github.com/kiddin9/luci-app-baidupcs-web.git
+    branch: master
+    revision: f5c3ac8009b8ac062817bc6dac7a3445ccd1c9c6
 include:
   - wifi-ax
 packages:
@@ -44,3 +48,4 @@ packages:
   - luci-app-turboacc
   - luci-app-samba4
   - luci-app-ttyd
+  - luci-app-baidupcs-web
