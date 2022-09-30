@@ -29,7 +29,7 @@ module.exports = [
   {
     name: 'kiddin9_Packages',
     uri: 'https://github.com/kiddin9/luci-app-baidupcs-web.git',
-    branch: 'main',
+    branch: 'master',
   },  
   // {
   //   name: 'lienol_packages',
