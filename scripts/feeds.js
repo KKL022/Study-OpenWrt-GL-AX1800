@@ -27,7 +27,7 @@ module.exports = [
     branch: 'main',
   },
   {
-    name: 'kiddin9_Packages',
+    name: 'KKL022_Packages',
     uri: 'https://github.com/KKL022/luci-app-baidupcs-web.git',
     branch: 'master',
   },  
