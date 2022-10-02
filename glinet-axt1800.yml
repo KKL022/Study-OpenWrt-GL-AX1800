@@ -30,11 +30,11 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: 245e30e2ac3d234b727d3f9fec82fcd641049005
+    revision: 0554127590b18b774e2c72d75ac73563b5c397a2
   - name: KKL022_Packages
     uri: https://github.com/KKL022/luci-app-baidupcs-web.git
     branch: master
-    revision: 95652152c0d2afa341f9ae103473c775cf4252d3
+    revision: 10e1563986036a0ac2c7c37898e4ac2b206fa5e6
 include: []
 packages:
   - kmod-hwmon-pwmfan
