@@ -18,7 +18,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 7cbb82c51bbf10379bdc1f0fa5650a1da945ea61
+    revision: 5aa7e220b87bff3483eefb0fcabb26ea713e7d14
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
@@ -30,7 +30,7 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: ee72af61dc6cee95719585f74cda3d7b80797520
+    revision: b3a5c78eb79b664e335fa263862a5effef43e290
   - name: KKL022_Packages
     uri: https://github.com/KKL022/luci-app-baidupcs-web.git
     branch: master
