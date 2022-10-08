@@ -18,7 +18,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: caf4154f9eec85ad8aa1663fad5f70bc4c1057cf
+    revision: fa05ee266a0a62855dc7eb930a723fabac89fb67
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
@@ -26,15 +26,11 @@ feeds:
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
-    revision: e4bcddb84f6cacf77f3b43cf27bc4fa9ec9752f5
+    revision: e77779f08938c498a1769abad9c603817819acb7
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: 34c545e5d95f7555e3da9bd6f49b7b7bbcb847fa
-  - name: KKL022_Packages
-    uri: https://github.com/KKL022/luci-app-baidupcs-web.git
-    branch: master
-    revision: 10e1563986036a0ac2c7c37898e4ac2b206fa5e6
+    revision: ec2bf0221fd0dba8a608b0d473fc44a9b40d6889
 include: []
 packages:
   - kmod-hwmon-pwmfan
@@ -51,4 +47,3 @@ packages:
   - luci-app-turboacc
   - luci-app-samba4
   - luci-app-ttyd
-  - luci-app-baidupcs-web
