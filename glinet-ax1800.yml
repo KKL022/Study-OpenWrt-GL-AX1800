@@ -18,7 +18,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 8923c7de6457a16434b88b725090c202aa6277cb
+    revision: 20da88808a3f852c65e33ce9c0a697d36a4e2778
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
@@ -30,7 +30,7 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: 02ea5e71b2b56dacc03a476f0450ac73c2a9a9c0
+    revision: 7aeb2ca7841a76baaf15ee37872eb3b39fb9bbfb
 include: []
 packages:
   - wireless-regdb
