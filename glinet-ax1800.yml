@@ -18,7 +18,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 583c72d50f09233286567ca049392c7152439fc1
+    revision: 27396421c7afc2adcfb81e2b0b1ae06569350d9a
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
@@ -30,7 +30,7 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: 3e2f6de62455e44cdd34fbd399eb45819a4440e3
+    revision: 1e9b9dc4fa1f08689780a0c22bf5ed55a9e6afb0
 include: []
 packages:
   - wireless-regdb
@@ -38,6 +38,7 @@ packages:
   - kmod-wireguard-backport
   - luci-theme-argon
   - luci-app-argon-config
+  - luci-app-passwall2
   - luci-app-openclash
   - luci-app-ramfree
   - luci-app-ddns
