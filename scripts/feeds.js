@@ -7,7 +7,7 @@
 
 module.exports = [
   {
-    name: 'kenzok8_packages',
+    name: 'kenzok8_small-package',
     uri: 'https://github.com/kenzok8/small-package.git',
     branch: 'master',
   },
