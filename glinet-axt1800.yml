@@ -18,7 +18,7 @@ feeds:
   - name: kenzok8_small-package
     uri: https://github.com/kenzok8/small-package.git
     branch: main
-    revision: dc6247f705d072da67e722c42489935cadbd3372
+    revision: 5d77dff149babc7e443d719f73cc5367cc2086bc
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
@@ -30,7 +30,7 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: 3f8b174d004ec0189503e11b5b492e1118f47b63
+    revision: 2e4614507c5d3fc435f86f6a99ba806041632798
 include: []
 packages:
   - kmod-hwmon-pwmfan
