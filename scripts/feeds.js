@@ -7,9 +7,9 @@
 
 module.exports = [
   {
-    name: 'kenzok8_small-package',
-    uri: 'https://github.com/kenzok8/small-package.git',
-    branch: 'main',
+    name: 'kenzok8_package',
+    uri: 'https://github.com/kenzok8/openwrt-packages.git',
+    branch: 'master',
   },
   {
     name: 'kenzok8_small',
