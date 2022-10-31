@@ -36,7 +36,6 @@ packages:
   - wget-ssl
   - luci-theme-argon
   - luci-app-argon-config
-  - luci-app-passwall
   - luci-app-openclash
   - luci-app-ramfree
   - luci-app-ddns
