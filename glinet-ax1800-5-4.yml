@@ -36,14 +36,13 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: e83772b151ac0c852c3fb7b4101ecfa3bb9eaf91
+    revision: 259a732cff765064a7ba9c88e267872d95698061
 include:
   - wifi-ax
 packages:
   - wget-ssl
   - luci-theme-argon
   - luci-app-argon-config
-  - luci-app-passwall
   - luci-app-openclash
   - luci-app-ramfree
   - luci-app-ddns
