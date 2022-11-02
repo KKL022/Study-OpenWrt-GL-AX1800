@@ -7,6 +7,16 @@
 
 module.exports = [
   {
+    name: 'xiaorouji_package_luci',
+    uri: 'https://github.com/xiaorouji/openwrt-passwall.git',
+    branch: 'luci',
+  },
+  {
+    name: 'xiaorouji_package',
+    uri: 'https://github.com/xiaorouji/openwrt-passwall.git',
+    branch: 'packages',
+  },
+  {
     name: 'kenzok8_package',
     uri: 'https://github.com/kenzok8/openwrt-packages.git',
     branch: 'master',
