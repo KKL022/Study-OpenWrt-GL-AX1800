@@ -15,10 +15,18 @@ feeds:
   - name: luci
     uri: https://github.com/openwrt/luci.git
     revision: 1c3b32dc1bec15e3076a447762b1c4f94eb75fb7
+  - name: xiaorouji_package_luci
+    uri: https://github.com/xiaorouji/openwrt-passwall.git
+    branch: luci
+    revision: 53c703afeb8badba22982da0dea3e6e4bb0e64c3
+  - name: xiaorouji_package
+    uri: https://github.com/xiaorouji/openwrt-passwall.git
+    branch: packages
+    revision: 6eeab778974a9319d0383944e0355b450878d81d
   - name: kenzok8_package
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 3c9105ddfb1b47594cd1ded0e9d4d601f9731d7d
+    revision: 8c62511b4b0325020c307af1d2d35939ac55a15e
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
@@ -30,7 +38,7 @@ feeds:
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
-    revision: f1b58af4040c769e34aa3113db17a6a47ce35eed
+    revision: e83772b151ac0c852c3fb7b4101ecfa3bb9eaf91
 include: []
 packages:
   - kmod-hwmon-pwmfan
