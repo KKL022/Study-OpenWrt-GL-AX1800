@@ -13,30 +13,18 @@ feeds:
   - name: luci
     uri: https://github.com/openwrt/luci.git
     revision: 1c3b32dc1bec15e3076a447762b1c4f94eb75fb7
-  - name: xiaorouji_package_luci
-    uri: https://github.com/xiaorouji/openwrt-passwall.git
-    branch: luci
-    revision: 53c703afeb8badba22982da0dea3e6e4bb0e64c3
-  - name: xiaorouji_package
-    uri: https://github.com/xiaorouji/openwrt-passwall.git
-    branch: packages
-    revision: 6eeab778974a9319d0383944e0355b450878d81d
-  - name: kenzok8_package
-    uri: https://github.com/kenzok8/openwrt-packages.git
-    branch: master
-    revision: c6e6a5bfccb2b1c5fd1ed6eba6fda0fb89af4d88
-  - name: kenzok8_small
-    uri: https://github.com/kenzok8/small.git
-    branch: master
-    revision: eaebb79bf83b25af1fabdf5c5e4c437ebd64745e
-  - name: immortalwrt_luci
-    uri: https://github.com/immortalwrt/luci.git
-    branch: openwrt-21.02
-    revision: 60ab741c0da35c9b2781baeb4d133475e637eeb1
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
     revision: aae627d57a4d5a98320f6c455a025614c542d1a3
+  - name: immortalwrt_luci
+    uri: https://github.com/immortalwrt/luci.git
+    branch: openwrt-21.02
+    revision: 60ab741c0da35c9b2781baeb4d133475e637eeb1
+  - name: kenzok8_small
+    uri: https://github.com/kenzok8/small.git
+    branch: master
+    revision: eaebb79bf83b25af1fabdf5c5e4c437ebd64745e
 include:
   - wifi-ax
 packages:
