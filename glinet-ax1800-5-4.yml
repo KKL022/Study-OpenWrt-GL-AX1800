@@ -31,10 +31,11 @@ packages:
   - wget-ssl
   - luci-theme-argon
   - luci-app-argon-config
+  - luci-app-passwall
   - luci-app-openclash
   - luci-app-ramfree
   - luci-app-ddns
   - luci-app-zerotier
-  - luci-app-turboacc
+  - luci-app-autoreboot
   - luci-app-samba4
   - luci-app-ttyd
