@@ -45,10 +45,10 @@ module.exports = [
     name: 'luci-app-zerotier',
     desc: 'ZeroTier内网穿透',
   },
-  {
-    name: 'luci-app-smartdns',
-    desc: 'Smartdns DNS防污染',
-  },
+  // {
+  //  name: 'luci-app-smartdns',
+  //  desc: 'Smartdns DNS防污染',
+  // },
   {
     name: 'luci-app-turboacc',
     desc: 'Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)',
