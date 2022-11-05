@@ -30,5 +30,5 @@ module.exports = [
   //   name: 'kenzok8_small',
   //   uri: 'https://github.com/kenzok8/small.git',
   //   branch: 'master',
-  },  
+  // },  
 ];
