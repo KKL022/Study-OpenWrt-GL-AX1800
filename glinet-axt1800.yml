@@ -22,7 +22,7 @@ feeds:
   - name: vernesong_OpenClash
     uri: https://github.com/vernesong/OpenClash.git
     branch: master
-    revision: d6840ac5bd718147dc63a4d800b44f05cc4b2c68
+    revision: 647fb0426e23a5ccd7acee8620ef422f1f1e7286
 include: []
 packages:
   - kmod-hwmon-pwmfan
