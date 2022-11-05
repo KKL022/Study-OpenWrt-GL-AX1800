@@ -15,18 +15,14 @@ feeds:
   - name: luci
     uri: https://github.com/openwrt/luci.git
     revision: 1c3b32dc1bec15e3076a447762b1c4f94eb75fb7
-  - name: NueXini_Packages
-    uri: https://github.com/NueXini/NueXini_Packages.git
-    branch: main
-    revision: aae627d57a4d5a98320f6c455a025614c542d1a3
-  - name: immortalwrt_luci
-    uri: https://github.com/immortalwrt/luci.git
-    branch: openwrt-21.02
-    revision: 60ab741c0da35c9b2781baeb4d133475e637eeb1
-  - name: kenzok8_small
-    uri: https://github.com/kenzok8/small.git
+  - name: jerrykuku_Packages
+    uri: https://github.com/jerrykuku/luci-theme-argon.git
     branch: master
-    revision: eaebb79bf83b25af1fabdf5c5e4c437ebd64745e
+    revision: bd0aa973e94bd3f6e787cf910372ef4f44be1e70
+  - name: vernesong_OpenClash
+    uri: https://github.com/vernesong/OpenClash.git
+    branch: master
+    revision: d6840ac5bd718147dc63a4d800b44f05cc4b2c68
 include: []
 packages:
   - kmod-hwmon-pwmfan
@@ -34,12 +30,4 @@ packages:
   - wget-ssl
   - kmod-wireguard-backport
   - luci-theme-argon
-  - luci-app-argon-config
-  - luci-app-passwall
   - luci-app-openclash
-  - luci-app-ramfree
-  - luci-app-ddns
-  - luci-app-zerotier
-  - luci-app-autoreboot
-  - luci-app-samba4
-  - luci-app-ttyd
