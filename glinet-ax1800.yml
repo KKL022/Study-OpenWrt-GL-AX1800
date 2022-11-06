@@ -22,7 +22,7 @@ feeds:
   - name: vernesong_OpenClash
     uri: https://github.com/vernesong/OpenClash.git
     branch: master
-    revision: 647fb0426e23a5ccd7acee8620ef422f1f1e7286
+    revision: 548cd32c3beee66980b761a40218def2f83b9383
 include: []
 packages:
   - wireless-regdb
