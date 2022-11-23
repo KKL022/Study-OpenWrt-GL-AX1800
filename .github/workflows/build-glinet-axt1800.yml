@@ -149,7 +149,7 @@ jobs:
         touch release.txt
         echo "## 📦‍ 固件下载 | GLINET AXT1800" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "- 🔗 [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
-        echo -e "## ✨ 主要功能\n1. Argon主题\n2. Clash的图形代理软件" >> release.txt
+        echo -e "## ✨ 主要功能\n1. Argon主题\n2. Clash的图形代理软件\n3. 动态域名 DDNS" >> release.txt
         echo "::set-output name=status::success"
 
     - name: Upload firmware to release
