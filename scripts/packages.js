@@ -29,10 +29,10 @@ module.exports = [
   //   name: 'luci-app-ramfree',
   //  desc: '释放内存',
   // },
-  // {
-  //  name: 'luci-app-ddns',
-  //  desc: '动态域名 DDNS',
-  // },
+  {
+    name: 'luci-app-ddns',
+    desc: '动态域名 DDNS',
+  },
   // {
   //   name: 'luci-app-zerotier',
   //   desc: 'ZeroTier内网穿透',
