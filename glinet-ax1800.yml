@@ -18,11 +18,11 @@ feeds:
   - name: jerrykuku_Packages
     uri: https://github.com/jerrykuku/luci-theme-argon.git
     branch: master
-    revision: c40d321979b8186504330b86274b14dc24230cf4
+    revision: c381cac1e27b31be277509acf1f3697fc08b31ce
   - name: vernesong_OpenClash
     uri: https://github.com/vernesong/OpenClash.git
     branch: master
-    revision: 548cd32c3beee66980b761a40218def2f83b9383
+    revision: 9f0873d975a19f7a447f4a655aedb5664537427e
 include: []
 packages:
   - wireless-regdb
