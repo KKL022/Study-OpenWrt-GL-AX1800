@@ -18,7 +18,7 @@ feeds:
   - name: jerrykuku_Packages
     uri: https://github.com/jerrykuku/luci-theme-argon.git
     branch: master
-    revision: c381cac1e27b31be277509acf1f3697fc08b31ce
+    revision: 1a11bd667e7016cdfa324c9695705629e2b0ca54
   - name: vernesong_OpenClash
     uri: https://github.com/vernesong/OpenClash.git
     branch: master
