@@ -20,7 +20,7 @@ feeds:
   - name: vernesong_OpenClash
     uri: https://github.com/vernesong/OpenClash.git
     branch: master
-    revision: 9f0873d975a19f7a447f4a655aedb5664537427e
+    revision: de526ee77a0876032543f52796b630e9bc694730
 include:
   - wifi-ax
 packages:
