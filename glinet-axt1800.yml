@@ -26,6 +26,7 @@ feeds:
 include: []
 packages:
   - kmod-hwmon-pwmfan
+  - kmod-gl-sdk4-fan
   - wireless-regdb
   - wget-ssl
   - kmod-wireguard-backport
