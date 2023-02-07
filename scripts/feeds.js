@@ -6,11 +6,11 @@
  */
 
 module.exports = [
-  {
-    name: 'jerrykuku_Packages',
-    uri: 'https://github.com/jerrykuku/luci-theme-argon.git',
-    branch: 'master',
-  },  
+  // {
+  //  name: 'jerrykuku_Packages',
+  //  uri: 'https://github.com/jerrykuku/luci-theme-argon.git',
+  //  branch: 'master',
+  // },  
   {
     name: 'vernesong_OpenClash',
     uri: 'https://github.com/vernesong/OpenClash.git',
@@ -21,11 +21,11 @@ module.exports = [
   //   uri: 'https://github.com/NueXini/NueXini_Packages.git',
   //   branch: 'main',
   // },  
-  // {
-  //   name: 'immortalwrt_luci',
-  //   uri: 'https://github.com/immortalwrt/luci.git',
-  //   branch: 'openwrt-21.02',
-  // },
+  {
+    name: 'immortalwrt_luci',
+    uri: 'https://github.com/immortalwrt/luci.git',
+    branch: 'openwrt-21.02',
+  },
   // {
   //   name: 'kenzok8_small',
   //   uri: 'https://github.com/kenzok8/small.git',
