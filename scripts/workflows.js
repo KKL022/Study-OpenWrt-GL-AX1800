@@ -12,11 +12,11 @@
     config: 'config-wlan-ap',
     target: 'target_wlan_ap-gl-ax1800',
   },
-  {
-    model: 'axt1800',
-    config: 'config-wlan-ap',
-    target: 'target_wlan_ap-gl-axt1800',
-  },
+//  {
+//    model: 'axt1800',
+//    config: 'config-wlan-ap',
+//    target: 'target_wlan_ap-gl-axt1800',
+//  },
   {
     name: 'build-glinet-ax1800-5.4',
     model: 'ax1800',
@@ -24,11 +24,11 @@
     target: 'target_wlan_ap-gl-ax1800-5-4',
     build: 'glinet-ax1800-5-4',
   },
-  {
-    name: 'build-glinet-axt1800-5.4',
-    model: 'axt1800',
-    config: 'config-wlan-ap-5.4',
-    target: 'target_wlan_ap-gl-axt1800-5-4',
-    build: 'glinet-axt1800-5-4',
-  },
+//  {
+//    name: 'build-glinet-axt1800-5.4',
+//    model: 'axt1800',
+//    config: 'config-wlan-ap-5.4',
+//    target: 'target_wlan_ap-gl-axt1800-5-4',
+//    build: 'glinet-axt1800-5-4',
+//  },
 ];
