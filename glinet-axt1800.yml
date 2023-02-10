@@ -18,11 +18,11 @@ feeds:
   - name: vernesong_OpenClash
     uri: https://github.com/vernesong/OpenClash.git
     branch: master
-    revision: 85f066f2f8b9e5d586970b27c3034f98762a1835
+    revision: 3480f7b62bcebadf6092a3fe44d27cfedef7cbe2
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
-    revision: f84a55cb28cf3e2ecfbe478cb907e8fa3f60bc53
+    revision: f3148305ee5ae35ba0c1f4a2ff4b1a1046155f9b
 include: []
 packages:
   - kmod-hwmon-pwmfan
