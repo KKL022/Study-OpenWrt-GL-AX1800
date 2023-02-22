@@ -22,7 +22,7 @@ feeds:
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
-    revision: c5edf566db3e6393a0ee136cf609b1f63fa716e1
+    revision: 8fcd541abd7726756993f8547344b8625071ce83
 include: []
 packages:
   - wireless-regdb
