@@ -33,10 +33,10 @@ module.exports = [
     name: 'luci-app-ddns',
     desc: '动态域名 DDNS',
   },
-  // {
-  //   name: 'luci-app-zerotier',
-  //   desc: 'ZeroTier内网穿透',
-  // },
+  {
+    name: 'luci-app-zerotier',
+    desc: 'ZeroTier内网穿透',
+  },
   // {
   //  name: 'luci-app-smartdns',
   //  desc: 'Smartdns DNS防污染',
