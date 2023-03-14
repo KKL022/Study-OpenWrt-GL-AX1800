@@ -21,11 +21,11 @@ feeds:
   - name: vernesong_OpenClash
     uri: https://github.com/vernesong/OpenClash.git
     branch: master
-    revision: ddab6028414584cd30fa659e7e141281846bcdf4
+    revision: cc49173c7365cf8c506522afbe6d254061a90e14
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
-    revision: 5604d8128fef4818723d2887595b2371923a1534
+    revision: 9443d136358b3b31b8ba6fbd88da553bfd7e8fe7
 include: []
 packages:
   - wireless-regdb
