@@ -20,7 +20,7 @@ feeds:
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
-    revision: 9443d136358b3b31b8ba6fbd88da553bfd7e8fe7
+    revision: 2762b0374f475771d44692caaeb95884979cf5a9
 include:
   - wifi-ax
 packages:
