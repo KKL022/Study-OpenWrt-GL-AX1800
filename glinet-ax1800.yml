@@ -31,7 +31,11 @@ packages:
   - wireless-regdb
   - wget-ssl
   - kmod-wireguard-backport
+  - wpad-openssl
   - luci-theme-argon
   - luci-app-openclash
   - luci-app-ddns
   - luci-app-zerotier
+diffconfig: |
+  CONFIG_PACKAGE_wpad-basic=n
+  CONFIG_PACKAGE_wpad=n
