@@ -16,7 +16,7 @@ feeds:
   - name: vernesong_OpenClash
     uri: https://github.com/vernesong/OpenClash.git
     branch: master
-    revision: 9ee0f02ed7615a62f960c9ee2f951dd1b47e2411
+    revision: 84470d6c43d3bd283b6feaeb212b07e482f7e32e
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
