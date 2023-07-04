@@ -16,11 +16,11 @@ feeds:
   - name: vernesong_OpenClash
     uri: https://github.com/vernesong/OpenClash.git
     branch: master
-    revision: 84470d6c43d3bd283b6feaeb212b07e482f7e32e
+    revision: 3952a3d4ea3728c1c929d0a92a4e0dcf2c7b7c2a
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
-    revision: acf6f9ac85ccbc704132dae6598bc03ebb0e2a49
+    revision: 6d39a5ab708953266586288833d2542663ed588f
 include:
   - wifi-ax
 packages:
